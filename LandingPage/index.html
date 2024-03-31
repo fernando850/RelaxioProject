@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <title>Relaxio Landing Page</title>
+</head>
+<body>  
+
+    <header>
+        <nav class="navbar">
+            <img src="../Images/logoRelaxio.png" alt="" class="logo">
+
+            <form class="search-form">
+                <input class="searchInput" type="text" placeholder="Search...">
+                <button type="submit"><i class="search"></i>
+                    <img class='searchIcon' src="../Images/Search.png" alt="">
+                </button>
+            </form>
+
+            <div class="navIcons">
+                <img src="../Images/shoppingBasket.png" alt="" class="basketIcon">
+
+                <img src="../Images/userIcon.png" alt="" class="accountIcon">
+            
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            </div>
+            
+        </nav>
+        <ul class="menu">
+            <li><a  class="close-menu" href="#" onclick="toggleMenu()">X</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our Products</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        
+        <div class="hero">
+            <h1 class="heroTitle">Be kind to yourself.</h1>
+            <p>Enjoy the deep relaxation that our new Neck Massager provides with the newest technology available in the market.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </header>
+    <main>
+        <div class="colorF1F8FE">
+
+
+
+        <div class="main-title">
+            <h1 class="main-h1">FEATURES</h1>
+            <p class="main-top-paragraph">Relieve the tension from your neck</p>
+        </div>
+
+        <div class="cards-arrow-container">
+            <div class="feature-cards">
+                <div class="card">
+                    <img src="../Images/5modesIcon.png" alt="" class="cards-icon">
+                    <p class="card-text">5 modes</p>
+                </div>
+                <div class="card">
+                    <img src="../Images/featherIcon.png" alt="" class="cards-icon">
+                    <p class="card-text">Lightweight</p>
+                </div> 
+                <div class="card">
+                    <img src="../Images/termometerIcon.png" alt="" class="cards-icon">
+                    <p class="card-text">Heating</p>
+                </div>
+                <div class="card">
+                    <img src="../Images/colorModeIntensityIcon.png" alt="" class="cards-icon">
+                    <p class="card-text">Intensity</p>
+                </div>
+                <div class="card">
+                    <img src="../Images/batteryIcon.png" alt="" class="cards-icon">
+                    <p class="card-text">Battery</p>
+                </div> 
+            </div>
+            <button class="switchCardBtn" id="prevBtn">&lt;</button>
+            <button class="switchCardBtn" id="nextBtn">&gt;</button>
+        </div>
+    </div>
+
+        <div class="main-bottom">
+            <div class="main-bottom-toptext">
+                <h2>How does it Work?</h2>
+                <p>Long distance driving, bad posture, stress and bad sleeping position can cause pain and discomfort on the neck. Our new neck massager can relieve neck aches by deep stimulation and low frequency vibrations.</p>
+                <p>The most common uses are to relieve soreness, humpbacked, stiffness and tension. The relaxation provided by the Neck Massager can be a good ally in your daily life.</p>
+            </div>
+
+            <div class="video">
+                <iframe  src="https://www.youtube.com/embed/kdldwEnttSM?si=gOZTOxLeo6zZ2GD2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="calltoaction">
+                <h2>Get exclusive discounts in your email!</h2>
+                <button class="btn">Subscribe</button>
+            </div>
+
+            <div class="supportContainer" class="colorF1F8FE">
+                <div class="contactsupport">
+                    <h4>Need help?</h4>
+    
+                    <a href="">Contact our Customer Support Team</a>
+                </div>
+    
+                <div class="socialmediaIcons">
+
+                    <a href="www.facebook.com"><img src="../Images/facebookIcon.png" alt=""></a>
+                    <a href="www.instagram.com"><img src="../Images/instagramIcon.png" alt=""></a>
+                    <a href="www.twitter.com"><img src="../Images/twitterIcon.png" alt=""></a>
+                    <a href="www.youtube.com"><img src="../Images/youtubeIcon.png" alt=""></a>
+                </div>
+            </div>
+            
+
+            
+
+        </div>
+
+        <div class="footer">
+            <div class="buttons">
+                <button class="btn2">Order Status<p>&gt&gt</p></button>
+                <button class="btn2">FAQ<p>&gt&gt</p></button>
+                <button class="btn2">Returns & Exchanges<p>&gt&gt</p></button>
+                </button>
+                <button class="btn2">Contact-us<p>&gt&gt</p></button>
+            </div>
+
+            <div class="appads">
+                <h3>Now we also have an app</h3>
+                <p>Using our app you can plan your day, schedule breaks, track your emotions and have access to breathing exercises  to bring back relaxation to your body.</p>
+                <div class="downloadIcons">
+                    <img src="../Images/AppStoreIcon.png" alt="">
+                    <img src="../Images/GooglePlayIcon.png" alt="">
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="logobottom">
+                    <img src="../Images/logoRelaxio.png" alt="">
+                </div>
+                <p>© 2023 Relaxio. All Rights Reserved. Use of this website is subject to certain terms of use which constitute a legal agreement between you and Relaxio.</p>
+                <div class="footer-a">
+                    <a href="" class="a-item">Terms of Services</a>
+                    <a href="" class="a-item">Privacy & Security</a>
+                    <a href="" class="a-item">Accessibility Policy</a>
+                    <a href="" class="a-item">Site Map</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        
+
+
+
+
+
+
+
+    </main>
+
+
+    <main>
+
+    </main>
+
+</body>
+</html>
